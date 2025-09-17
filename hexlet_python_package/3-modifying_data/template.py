@@ -1,4 +1,4 @@
-def count_all(coll):
+def template(coll):
   dist ={}
   for item in coll:
     count = 0
@@ -8,5 +8,7 @@ def count_all(coll):
     dist[item] = count
   return dist
 
-## result = count_all('sergei')
-## print(result)
+## coll = [10, 11, 10, 11, 13, 20]
+## print(template(coll))
+    
+    
