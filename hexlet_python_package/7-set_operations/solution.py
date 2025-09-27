@@ -4,4 +4,4 @@ def diff_keys(old, new):
         'added': set(new) - set(old), 
         'removed': set(old) - set(new)
     }
-    return result
+    return result 
