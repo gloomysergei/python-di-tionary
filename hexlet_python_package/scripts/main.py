@@ -1,6 +1,6 @@
 import sys
 
-from hexlet_python_package.half import half
+from hexlet_python_package.3_task.template import add_values
 
 
 def main():
